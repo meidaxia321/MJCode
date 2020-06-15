@@ -15,6 +15,7 @@
 		015E6F0A249763C200C746CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015E6F09249763C200C746CC /* main.m */; };
 		015E6F14249763C200C746CC /* MJCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015E6F13249763C200C746CC /* MJCodeTests.m */; };
 		015E6F1F249763C200C746CC /* MJCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015E6F1E249763C200C746CC /* MJCodeUITests.m */; };
+		01EFC78F24976CC800D1AA0B /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EFC78E24976CC800D1AA0B /* UserLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		015E6F1A249763C200C746CC /* MJCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		015E6F1E249763C200C746CC /* MJCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJCodeUITests.m; sourceTree = "<group>"; };
 		015E6F20249763C200C746CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EFC78D24976CC800D1AA0B /* UserLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserLoginViewController.h; sourceTree = "<group>"; };
+		01EFC78E24976CC800D1AA0B /* UserLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				015E6EFB249763C000C746CC /* AppDelegate.m */,
 				015E6EFD249763C000C746CC /* ViewController.h */,
 				015E6EFE249763C000C746CC /* ViewController.m */,
+				01EFC78D24976CC800D1AA0B /* UserLoginViewController.h */,
+				01EFC78E24976CC800D1AA0B /* UserLoginViewController.m */,
 				015E6F00249763C000C746CC /* Main.storyboard */,
 				015E6F03249763C200C746CC /* Assets.xcassets */,
 				015E6F05249763C200C746CC /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				015E6EFF249763C000C746CC /* ViewController.m in Sources */,
 				015E6F0A249763C200C746CC /* main.m in Sources */,
 				015E6EFC249763C000C746CC /* AppDelegate.m in Sources */,
+				01EFC78F24976CC800D1AA0B /* UserLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
